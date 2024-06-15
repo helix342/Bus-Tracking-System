@@ -1,0 +1,12 @@
+Gps.json
+
+
+var value=JSON.parse(JSON.stringify(msg.payload));
+value=msg;
+var lat = msg.payload.Latitude;
+var lon = msg.payload.Longtitude;
+var date = msg.payload.Date;
+var time = msg.payload.Time;
+msg.payload = [lat, lon, date, time];
+msg.topic = 'INSERT INTO gps(Latitude, Longitude, Date, Time) VALUES (?,?,?,?);';
+return msg;
