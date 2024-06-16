@@ -68,8 +68,7 @@ body, html {
   loading="lazy"
   allowfullscreen
   referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBw9zFqSsU5iHehemtfZesxGSPAtxANwKE
-    &q=11.05441813588214, 78.0484523">
+  src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY">
     </iframe>
 		
     <script>
